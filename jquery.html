@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style> .highlight {background: yellow;}</style>
   <title>jQuery test page</title>
 </head>
 <body>
@@ -54,7 +55,14 @@ function undo () {
   $('h2') .show ();
   $('h3') .show ();};
 </script>
-
+<script>
+function highlightByline () {
+   $('.byline') .addClass ('highlight')};
+</script>
+<script> function unHighlightByline (){
+  $('.byline') .removeClass ('highlight')
+};
+</script> 
 
 
 
