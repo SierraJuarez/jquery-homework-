@@ -26,6 +26,23 @@
   var wiki = $('h2') .text ('A Wikipedia article');
 };
 </script>
+<script>
+  function logHeadline () {
+    var text = $('h1') .text ();
+    console.log (text)
+
+    var text = $('h2') .text ();
+    console.log (text)
+  };
+  </script>
+<script>
+ function swapHeadlines () {
+   var get = $('h1') .text ();
+   var get2 = $('h2') .text ();
+   var swap = $('h1') .text(get2);
+   var swap2 = $('h2') .text(get);
+ };
+</script>
 
 
 
